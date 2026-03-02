@@ -2,12 +2,6 @@
 
 The custom CNN significantly outperformed the VGG19 baseline in both accuracy and computational efficiency when restricted to roughly 25 minutes of total training time. 
 
-By epoch 5, the custom model achieved superior validation accuracy while drastically reducing the epoch training time by 90%. Most importantly for medical diagnostics, the custom model achieved a **0.94 Recall for Pneumonia**, effectively minimizing dangerous false negatives compared to the heavier baseline model.
-
-## Performance & Benchmarking
-
-The custom CNN significantly outperformed the VGG19 baseline in both accuracy and computational efficiency. 
-
 By epoch 5, the custom model achieved superior validation accuracy while reducing the epoch training time by over 85% (~186 seconds vs. 1327 seconds for VGG19). Most importantly for medical diagnostics, the custom model achieved a **0.94 Recall for Pneumonia**, effectively minimizing dangerous false negatives compared to the heavier baseline model.
 
 ### Training Metrics & Efficiency
