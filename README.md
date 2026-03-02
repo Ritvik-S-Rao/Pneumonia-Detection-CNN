@@ -1,7 +1,7 @@
 # Pneumonia Detection from Chest X-Rays: Custom CNN vs. VGG19
 
 ## Overview
-This repository contains a custom Convolutional Neural Network (CNN) engineered from scratch to detect pneumonia from medical chest X-ray imagery. The primary objective of this project was to design a highly efficient model that prioritizes **Recall** (to minimize dangerous false negatives in a medical context) while operating under strict computational and time constraints ($\sim$30 minutes of training).
+This repository contains a custom Convolutional Neural Network (CNN) engineered from scratch to detect pneumonia from medical chest X-ray imagery. The primary objective of this project was to design a highly efficient model that prioritizes **Recall** (to minimize dangerous false negatives in a medical context) while operating under strict computational and time constraints (~30 minutes of training).
 
 To validate the architecture, the custom model was benchmarked against a pre-trained VGG19 baseline under identical training time constraints. 
 
