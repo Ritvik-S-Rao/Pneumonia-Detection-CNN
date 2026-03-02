@@ -11,7 +11,7 @@ To validate the architecture, the custom model was benchmarked against a pre-tra
 * **Concepts:** Deep Learning, Convolutional Neural Networks, Callbacks, Loss Optimization
 
 ## Performance & Benchmarking
-The custom CNN significantly outperformed the VGG19 baseline in both accuracy and computational efficiency when restricted to roughly 30 minutes of total training time. By epoch 5, the custom model achieved a validation accuracy of **87.66%**, while drastically reducing the epoch training time by 90%.
+The custom CNN significantly outperformed the VGG19 baseline in both accuracy and computational efficiency when restricted to roughly 30 minutes of total training time. By epoch 5, the custom model achieved a validation accuracy of **87.66%**, while drastically reducing the epoch training time by ~90%.
 
 | Metric | Custom CNN (5th Epoch) | VGG19 Baseline (1st Epoch) |
 | :--- | :--- | :--- |
